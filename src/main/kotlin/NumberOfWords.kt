@@ -14,3 +14,10 @@ fun getNumOfWords(sentence: String): Int {
      */
     return words.map { it.groups["word"]?.value }.filterNotNull().toList().size
 }
+
+fun main(args: Array<String>) {
+    val input = args.joinToString(separator = " ")
+
+    val words = getNumOfWords(input)
+    println("\"$input\" contains $words words")
+}
