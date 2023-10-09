@@ -1,4 +1,6 @@
-import org.junit.jupiter.api.Assertions.*
+package topic_2
+
+import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Test
 
 class NumberOfWordsTest {

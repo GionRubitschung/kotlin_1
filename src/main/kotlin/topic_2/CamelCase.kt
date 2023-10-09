@@ -1,3 +1,5 @@
+package topic_2
+
 fun convertToCamelCase(string: String): String {
     val nonLettersPattern = "[^\\p{L}]+".toRegex()
     val cleanedUp = string.replace(nonLettersPattern, "")

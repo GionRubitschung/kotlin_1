@@ -1,3 +1,5 @@
+package topic_2
+
 fun getNumOfWords(sentence: String): Int {
     /**
      * `(\p{L}+)` captures one or more unicode letters and puts the match into a group --> matches a word in any language

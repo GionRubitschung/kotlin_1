@@ -1,3 +1,5 @@
+package topic_2
+
 import kotlin.math.floor
 import kotlin.math.pow
 
